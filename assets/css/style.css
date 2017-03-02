@@ -1,0 +1,61 @@
+
+body {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  font-family: 'Bungee', cursive;
+  background: white; 
+}
+
+.title {
+  margin-bottom: 20px;
+  padding: 8px;
+  width: auto;
+  /*background: black;*/
+  text-align: center;
+  font-weight: bold;
+}
+
+.paragraph {
+  background: black;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 1%;
+  margin-right: 220px;
+  margin-left: 220px;
+}
+
+.your-score {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.winning {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+
+.title p{
+  background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  #FFFFFF;
+  padding-top: 20px;
+  font-size: 50px;
+  font-family: 'Bungee', cursive;
+  animation: filling 5s ease forwards;
+}

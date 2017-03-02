@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<title>Crystal Collector!</title>
+	<meta name="viewport" content="width-device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	
+<div class="title">
+	<p>SYMBOL MADNESS</p>
+</div>
+
+<div class="container-fluid">
+
+<div class="row">
+	<div class="col-md-12 col-sm-12 hidden-xs text-center">
+		<div class="paragraph">
+			<p> you will be given a random number at the start of the game.</p>
+			<p>There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>you win the game by matching your total score to the target number, you lose the game if you bust that number.</p>
+			<p>The Value of each crystal is hidden from you unil you click on it</p>
+		</div>
+	</div>
+</div>
+
+<br>
+
+<div class="row">
+	<div class="text-center">
+		<div id="scoreboard">
+			<section id="messageEnd"></section>
+			<section id="win">Wins:</section>
+			<section id="lose">Lose:</section>
+			<section id="targetNumber">Target Number : </section>
+		</div>
+		</div>
+	</div>
+</div>
+
+<br>
+
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-4"></div>
+	<div class="col-md-8 col-sm-8 col-xs-12">	
+		<div class="gems">
+			<img id="pic1" class="col-md-3 col-sm-6 col-xs-6" src="assets/images/1.png">
+			<img class="col-md-3 col-sm-6 col-xs-6" id="pic2" src="assets/images/3.png">
+			<img class="col-md-3 col-sm-6 col-xs-6" id="pic3" src="assets/images/2.png">
+			<img class="col-md-3 col-sm-6 col-xs-6" id="pic4" src="assets/images/4.png">
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="your-score">
+	<!-- <h3>Your Score : </h3> -->
+	<div id="score-add">Your Score :</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
