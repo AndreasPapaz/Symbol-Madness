@@ -29,7 +29,7 @@ body {
 
 .your-score {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 /*.winning {
@@ -55,7 +55,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   color:  #FFFFFF;
-  padding-top: 20px;
+  padding-top: 5px;
   font-size: 50px;
   font-family: 'Bungee', cursive;
   animation: filling 5s ease forwards;
