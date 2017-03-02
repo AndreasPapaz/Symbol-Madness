@@ -76,7 +76,7 @@ $(document).ready(function () {
 			// alert("youWin");
 			$("#win").html("Wins: " + wins);
 			$("#messageEnd").html("YOU WIN!");
-			$("#messageEnd").addClass("winning");
+			// $("#messageEnd").addClass("winning");
 			reset();
 		}
 		else if (yourScore > targetVal){
@@ -84,7 +84,7 @@ $(document).ready(function () {
 			// alert("sorry");
 			$("#lose").html("Lose: " + looses);
 			$("#messageEnd").html("YOU WIN!");
-			$("#messageEnd").addClass("loser");
+			// $("#messageEnd").addClass("loser");
 			reset();
 		}
 
