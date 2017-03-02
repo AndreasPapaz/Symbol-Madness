@@ -83,7 +83,7 @@ $(document).ready(function () {
 			looses++;
 			// alert("sorry");
 			$("#lose").html("Lose: " + looses);
-			$("#messageEnd").html("YOU WIN!");
+			$("#messageEnd").html("Sorry Try Again");
 			// $("#messageEnd").addClass("loser");
 			reset();
 		}
