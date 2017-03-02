@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 
 
-
+	// function to randomly generate a "value" to a picture on start/reset
 	function gemAssign(){
 
 		var crystal1 = randomGem();
@@ -45,12 +45,14 @@ $(document).ready(function () {
 		function randomGem() {
 			return Math.floor(Math.random() * 12) + 1;
 			}
-		// added attr and class
+		// added attr
 		$("#pic1").attr("data-value", crystal1);
 		$('#pic2').attr("data-value", crystal2);
 		$('#pic3').attr("data-value", crystal3);
 		$('#pic4').attr("data-value", crystal4);
 
+		// added class to select all pictures so i only need to create one
+		// on.click function
 		$("#pic1").addClass("button");
 		$("#pic2").addClass("button");
 		$("#pic3").addClass("button");
@@ -60,7 +62,7 @@ $(document).ready(function () {
 
 	}
 
-
+	// to start game
 	reset();
 
 
