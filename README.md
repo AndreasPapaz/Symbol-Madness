@@ -7,3 +7,7 @@ Web app game to where the objective is to hit the target score. The symbols are 
 ----
 
 [Find the Symbol Madness game here](https://symbolmadness.herokuapp.com/)
+
+---
+
+The game is mobile responsive. Play on the go!
